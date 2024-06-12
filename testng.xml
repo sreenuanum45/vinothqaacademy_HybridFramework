@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="listeners.MyListeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/Myprojects/vinothqaacademy_HybridFramework/src/test/java/Testcases/Verify_RegisterForm.java">
+        <classes>
+            <class name="Testcases.Verify_RegisterForm">
+                <methods>
+                    <include name="Verify_RegisterFormWithDSameData"/>
+                    <include name="Verify_RegisterFormWithoutAllFields"/>
+                    <include name="Verify_RegisterFormWithAllFields"/>
+                    <include name="Verify_RegisterFormWithMandataryData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
